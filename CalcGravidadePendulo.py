@@ -3,6 +3,7 @@ import math
 c = [ ]
 p = [ ]
 
+print('\nCalculo da constante gravitacional a partir  das oscilação de um pendulo\n')
 n = int(input('\tNumero de ciclos: '))
 print('\n')
 
