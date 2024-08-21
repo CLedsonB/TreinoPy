@@ -1,0 +1,9 @@
+num = int(input())
+
+if num == 1:
+    print("HAMBURGUER VEGANO, CHURRASCO VEGANO E COXINHA VEGANA")
+elif num == 2:
+    print("HAMBURGUER, CHURRASCO E COXINHA")
+elif num == 3:
+    print("HAMBURGUER VEGANO, CHURRASCO VEGANO E COXINHA VEGANA")
+    print("HAMBURGUER, CHURRASCO E COXINHA")
