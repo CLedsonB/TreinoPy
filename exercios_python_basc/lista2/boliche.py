@@ -10,6 +10,6 @@ while c >= b:
     grupo += 1
 
 if grupo == a:
-    print("S")
-else:
     print("N")
+else:
+    print("S")

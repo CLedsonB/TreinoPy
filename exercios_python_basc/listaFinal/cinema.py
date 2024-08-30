@@ -17,16 +17,14 @@ busca = input()
 print(busca + "\n")
 
 for i in range(n):
-    if lista[i]['categoria'] == busca:
+    if type(lista[i]['categoria']) == type(busca) and lista[i]['categoria'] == busca:
         print(lista[i]['ano'])
         print(lista[i]['nome'])
-        print(lista[i]['data'])
-        print()
-    elif lista[i]['ano'] == int(busca):
+        print(lista[i]['data'] + "\n")
+    elif type(lista[i]['ano']) == type(busca) and lista[i]['ano'] == int(busca):
         print(lista[i]['nome'])
         print(lista[i]['categoria'])
-        print(lista[i]['data'])
-        print()
+        print(lista[i]['data'] + "\n")
     else:
         print("Sem filmes nessa consulta")
         break

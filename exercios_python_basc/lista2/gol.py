@@ -1,5 +1,5 @@
-z,g = input().split(" ")
-d,c = input().split(" ")
+z,d = input().split()
+g,c = input().split()
 
 if z != g:
     print("Bloqueado")

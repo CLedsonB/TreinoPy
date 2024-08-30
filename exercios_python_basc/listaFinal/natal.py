@@ -1,4 +1,4 @@
-p,g,t = input().split(" ")
+p,g,t = input().split()
 
 p = int(p)
 g = int(g)

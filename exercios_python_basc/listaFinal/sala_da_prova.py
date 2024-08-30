@@ -10,6 +10,6 @@
 letra = input().strip()
 
 if letra >= "A" and letra <= "M":
-    print('Voce fara prova no laboratorio 140')
+    print('Voce fara prova no Laboratorio 140.')
 elif letra > "M" and letra <= "Z":
-    print('Voce fara prova no laboratorio 143')
+    print('Voce fara prova no Laboratorio 143.')

@@ -14,4 +14,5 @@ for i in range(7):
 
 if jutsuN + j >= 1000 and c >= 0:
     print("SUMIDAO!!!")
-
+else:
+    print("MERECIDO!!! \n")
